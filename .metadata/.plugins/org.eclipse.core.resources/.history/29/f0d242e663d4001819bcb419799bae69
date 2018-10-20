@@ -1,0 +1,29 @@
+//class BooleanTest {
+//Boolean 布尔 true真 false假
+fun main(args: Array<String>) {
+
+	//1,判断4和6的大小
+	var num1 = 4
+	var num2 = 6
+
+	println(num1 > num2)
+	println(num1 < num2)
+
+	//2,判断根号5-根号4是否大于根号4-根号3
+	var num3 = Math.sqrt(5.0) - Math.sqrt(4.0)
+	var num4 = Math.sqrt(4.0) - Math.sqrt(3.0)
+	println(num3 < num4)
+	//打印num3和num4的值
+	println("num3=" + num3)
+	println("num4=" + num4)
+
+	//3,比较2的100次方与3的75次方的大小
+	var num5 = Math.pow(2.0, 100.0)
+	var num6 = Math.pow(3.0, 75.0)
+	println(num5 < num6)
+	println("num5=" + num5)
+	println("num6=" + num6)
+
+
+}
+//}

@@ -1,0 +1,7 @@
+//日记生成器
+fun diaryGenerator(placeName: String): String {
+	var temp = """
+			今天天气晴朗，万里无云，我们去placeName游玩，
+ 首先映入眼帘的是，placeName 4个鎏金大字。
+ """
+}

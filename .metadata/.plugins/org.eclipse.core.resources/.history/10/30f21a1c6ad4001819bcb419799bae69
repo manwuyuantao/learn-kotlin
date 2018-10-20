@@ -1,0 +1,8 @@
+fun main(args: Array<String>) {
+	var str1 = "张三"
+	var str2 = "张二"
+	println(str1 == str2)   //相当于java中的.equals()方法 ，java中的==代表的是比较两个对象的内存地址是否相同
+	println(str1.equals(str2))   //相当于java中的.equals()方法 ，java中的==代表的是比较两个对象的内存地址是否相同
+
+	println(str1.equals(str2, false))
+}

@@ -1,0 +1,7 @@
+//变量的声明和使用
+fun main(args: Array<String>) {//固定写法，函数的入口
+	var name = "张三"   //计算机给我一块空间，空间的名字叫name,里面存放张三
+	name = "李四"
+	println(name)
+
+}
